@@ -27,15 +27,16 @@
     <div id="setup-modal" class="fixed inset-0 z-[200] flex items-center justify-center bg-black/95 backdrop-blur-xl p-6">
         <div class="max-w-md w-full p-10 rounded-[40px] bg-[#050505] border border-white/10 text-center animate-in shadow-2xl">
 <div class="w-20 h-20 mx-auto mb-6 logo-container">
-    <img src="df.png" alt="Logo" class="logo-img">
+    <!-- <img src="df.png" alt="Logo" class="logo-img"> -->
 </div>
-            <h2 class="text-3xl font-black text-white mb-2">DarkFish · Community</h2>
+            <img src="darkfish.png" style="height: 150px width 150px;" alt="">
+            <br>
             <p class="text-slate-500 mb-6">Create your profile to start</p>
             
             <!-- Profile Picture Upload -->
             <div class="mb-6 flex justify-center">
                 <div class="relative">
-                    <img id="setup-avatar-preview" src="https://api.dicebear.com/7.x/avataaars/svg?seed=default" class="w-24 h-24 rounded-3xl border-4 border-indigo-600/20 cursor-pointer hover:opacity-80 transition transform hover:scale-105" onclick="document.getElementById('setup-avatar-input').click()">
+                    <img id="setup-avatar-preview" src="avatar.png" class="w-24 h-24 rounded-3xl border-4 border-indigo-600/20 cursor-pointer hover:opacity-80 transition transform hover:scale-105" onclick="document.getElementById('setup-avatar-input').click()">
                     <div class="absolute -bottom-2 -right-2 w-8 h-8 bg-indigo-600 rounded-xl flex items-center justify-center cursor-pointer" onclick="document.getElementById('setup-avatar-input').click()">
                         <i data-lucide="camera" class="w-4 h-4 text-white"></i>
                     </div>
@@ -193,7 +194,7 @@
 
         <div class="p-6 border-t border-white/[0.03] flex items-center gap-4">
             <div class="relative">
-                <img id="sidebar-avatar" src="https://api.dicebear.com/7.x/avataaars/svg?seed=default" class="w-12 h-12 rounded-xl border-2 border-indigo-600/20 cursor-pointer hover:opacity-80 transition transform hover:scale-105" onclick="openProfileModal()">
+                <img id="sidebar-avatar" src="avatar.png" class="w-12 h-12 rounded-xl border-2 border-indigo-600/20 cursor-pointer hover:opacity-80 transition transform hover:scale-105" onclick="openProfileModal()">
                 <div class="absolute -bottom-1 -right-1 w-4 h-4 bg-green-500 border-4 border-[var(--sidebar-bg)] rounded-full animate-pulse"></div>
             </div>
             <div class="flex-1 min-w-0">
@@ -255,5 +256,6 @@
 <!-- ====================================== -->
 <!--                                        -->
 <!--     THIS WEBSITE DESIGNED BY           -->
-<!--         DARKFISH X ALIF MAHAMUD        -->
+<!--     DARKFISH X ALIF MAHAMUD            -->
+<!--                                        -->
 <!-- ====================================== -->
