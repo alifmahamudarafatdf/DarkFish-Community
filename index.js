@@ -5,7 +5,7 @@
         let myData = {
             id: '',
             name: '',
-            avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=default'
+            avatar: 'avatar.png'
         };
         let friends = [];
         let filteredFriends = [];
